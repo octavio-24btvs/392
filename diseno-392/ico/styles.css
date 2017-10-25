@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("fonts/untitled-font-1.eot");
+  src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-1.woff") format("woff"),
+    url("fonts/untitled-font-1.ttf") format("truetype"),
+    url("fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-1" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-1" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-parque:before {
+  content: "\61";
+}
+.icon-001-dibujo-de-arquitectura-de-una-casa-en-un-papel:before {
+  content: "\62";
+}
+.icon-002-parque-3:before {
+  content: "\63";
+}
+.icon-003-grua-transportando-material-de-construccion-para-un-edificio:before {
+  content: "\64";
+}
+.icon-004-sobre-cerrado:before {
+  content: "\65";
+}
+.icon-005-responder-llamada:before {
+  content: "\66";
+}
+.icon-006-house-sketch:before {
+  content: "\67";
+}
+.icon-008-parque-2:before {
+  content: "\68";
+}
+.icon-007-dibujo:before {
+  content: "\69";
+}
+.icon-009-parque-1:before {
+  content: "\6a";
+}
+.icon-010-parque:before {
+  content: "\6b";
+}
+.icon-facebook-square:before {
+  content: "\6d";
+}
+.icon-location:before {
+  content: "\6e";
+}
+.icon-obrero:before {
+  content: "\6f";
+}
